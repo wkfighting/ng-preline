@@ -8,9 +8,8 @@ describe('PrelineComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PrelineComponent ]
-    })
-    .compileComponents();
+      declarations: [PrelineComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PrelineComponent);
     component = fixture.componentInstance;
